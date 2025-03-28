@@ -26,15 +26,36 @@ import MarketDashboard from "./components/MarketDashboard/MarketDashboard";
 import StellarMarket from "./components/StellarMarket/StellarMarket";
 import FocusLightSpinner from "./components/FocusLightSpinner";
 import StellarMarket_v2 from "./components/StellarMarket_v2/StellarMarket_v2";
+import ShootingGameMain from "./components/ShootingGame/ShootingGameMain";
 
 export default function App() {
   const contentArray = [
     { title: "ErrorPage", type: "video", madeBy: "Agent Mode With C 3.5 S" },
-    { title: "StellarMarket_v2", type: "video", madeBy: "Agent Mode With C 3.5 S" },
-    { title: "StellarMarket", type: "video", madeBy: "Agent Mode With C 3.5 S" },
-    { title: "FocusLightSpinner", type: "video", madeBy: "Agent Mode With C 3.5 S" },
-    { title: "ExpenseDashboard", type: "video", madeBy: "Agent Mode With C 3.5 S" },
-    { title: "MarketDashboard", type: "video", madeBy: "Agent Mode With C 3.5 S" },
+    {
+      title: "StellarMarket_v2",
+      type: "video",
+      madeBy: "Agent Mode With C 3.5 S",
+    },
+    {
+      title: "StellarMarket",
+      type: "video",
+      madeBy: "Agent Mode With C 3.5 S",
+    },
+    {
+      title: "FocusLightSpinner",
+      type: "video",
+      madeBy: "Agent Mode With C 3.5 S",
+    },
+    {
+      title: "ExpenseDashboard",
+      type: "video",
+      madeBy: "Agent Mode With C 3.5 S",
+    },
+    {
+      title: "MarketDashboard",
+      type: "video",
+      madeBy: "Agent Mode With C 3.5 S",
+    },
     { title: "GC3SignUpPage", type: "video", madeBy: "GC3SignUpPage" },
     { title: "GC3SignInPage", type: "video", madeBy: "GC3SignInPage" },
     { title: "GitHubCopilot2", type: "video", madeBy: "GitHubCopilot2" },
@@ -54,6 +75,7 @@ export default function App() {
     { title: "Grok", type: "image", madeBy: "Grok" },
     { title: "ChatDashboard1", type: "image", madeBy: "ChatGPT" },
     { title: "ChatDashboard", type: "image", madeBy: "ChatGPT" },
+    { title: "ShootingGame", type: "game", madeBy: "GitHub Copilot" },
   ];
 
   return (
@@ -85,6 +107,7 @@ export default function App() {
         <Route path="/StellarMarket" element={<StellarMarket />} />
         <Route path="/FocusLightSpinner" element={<FocusLightSpinner />} />
         <Route path="/StellarMarket_v2" element={<StellarMarket_v2 />} />
+        <Route path="/ShootingGame" element={<ShootingGameMain />} />
         <Route path="/ErrorPage" element={<ErrorPage />} />
 
         {/* Error page - catches all undefined routes */}

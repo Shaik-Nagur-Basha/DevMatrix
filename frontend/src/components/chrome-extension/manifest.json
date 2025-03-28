@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Page Downloader",
+  "version": "1.0",
+  "description": "Download web pages as standalone HTML files",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.svg",
+    "128": "icon128.svg"
+  }
+}

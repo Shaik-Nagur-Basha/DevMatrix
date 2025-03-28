@@ -29,7 +29,7 @@ export default function ThemeSwitch() {
       {isDark ? (
         <FiSun className="text-yellow-500 text-xl" />
       ) : (
-        <FiMoon className="text-slate-700 text-xl" />
+        <FiMoon className="text-slate-700 dark:text-white text-xl" />
       )}
     </button>
   );
