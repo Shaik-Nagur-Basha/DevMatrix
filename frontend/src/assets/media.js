@@ -25,8 +25,8 @@ import Portfolio from "./Videos/Portfolio.mp4";
 import Portfolio1 from "./Videos/Portfolio1.mp4";
 import Portfolio2 from "./Videos/Portfolio2.mp4";
 import StellarMarket from "./Videos/StellarMarket.mp4";
-import FocusLightSpinner from "./videos/FocusLightSpinner.mp4";
-import StellarMarket_v2 from "./videos/StellarMarket_v2.mp4";
+import FocusLightSpinner from "./Videos/FocusLightSpinner.mp4";
+import StellarMarket_v2 from "./Videos/StellarMarket_v2.mp4";
 
 export const images = {
   ChatDashboard,
