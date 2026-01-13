@@ -82,33 +82,54 @@ export default function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/DevMatrix" element={<Home contentArray={contentArray} />} />
-        <Route path="/MicrosoftCopilot" element={<MicrosoftCopilot />} />
-        <Route path="/MicrosoftCopilot1" element={<MicrosoftCopilot1 />} />
-        <Route path="/ChatGpt" element={<ChatGpt />} />
-        <Route path="/ChatGpt1" element={<ChatGpt1 />} />
-        <Route path="/DeepSeek" element={<DeepSeek />} />
-        <Route path="/DeepSeek1" element={<DeepSeek1 />} />
-        <Route path="/DeepSeek2" element={<DeepSeek2 />} />
-        <Route path="/DeepSeek3" element={<DeepSeek3 />} />
-        <Route path="/GitHubCopilot" element={<GitHubCopilot />} />
-        <Route path="/GitHubCopilot1" element={<GitHubCopilot1 />} />
-        <Route path="/GitHubCopilot2" element={<GitHubCopilot2 />} />
-        <Route path="/GC3SignUpPage" element={<GC3SignUpPage />} />
-        <Route path="/GC3SignInPage" element={<GC3SignInPage />} />
-        <Route path="/Grok" element={<Grok />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Portfolio1" element={<Portfolio1 />} />
-        <Route path="/Portfolio2" element={<Portfolio2 />} />
-        <Route path="/ChatDashboard" element={<ChatDashboard />} />
-        <Route path="/ChatDashboard1" element={<ChatDashboard1 />} />
-        <Route path="/ExpenseDashboard" element={<ExpenseDashboard />} />
-        <Route path="/MarketDashboard" element={<MarketDashboard />} />
-        <Route path="/StellarMarket" element={<StellarMarket />} />
-        <Route path="/FocusLightSpinner" element={<FocusLightSpinner />} />
-        <Route path="/StellarMarket_v2" element={<StellarMarket_v2 />} />
-        <Route path="/ShootingGame" element={<ShootingGameMain />} />
-        <Route path="/ErrorPage" element={<ErrorPage />} />
+        <Route
+          path="/DevMatrix"
+          element={<Home contentArray={contentArray} />}
+        />
+        <Route
+          path="/DevMatrix/MicrosoftCopilot"
+          element={<MicrosoftCopilot />}
+        />
+        <Route
+          path="/DevMatrix/MicrosoftCopilot1"
+          element={<MicrosoftCopilot1 />}
+        />
+        <Route path="/DevMatrix/ChatGpt" element={<ChatGpt />} />
+        <Route path="/DevMatrix/ChatGpt1" element={<ChatGpt1 />} />
+        <Route path="/DevMatrix/DeepSeek" element={<DeepSeek />} />
+        <Route path="/DevMatrix/DeepSeek1" element={<DeepSeek1 />} />
+        <Route path="/DevMatrix/DeepSeek2" element={<DeepSeek2 />} />
+        <Route path="/DevMatrix/DeepSeek3" element={<DeepSeek3 />} />
+        <Route path="/DevMatrix/GitHubCopilot" element={<GitHubCopilot />} />
+        <Route path="/DevMatrix/GitHubCopilot1" element={<GitHubCopilot1 />} />
+        <Route path="/DevMatrix/GitHubCopilot2" element={<GitHubCopilot2 />} />
+        <Route path="/DevMatrix/GC3SignUpPage" element={<GC3SignUpPage />} />
+        <Route path="/DevMatrix/GC3SignInPage" element={<GC3SignInPage />} />
+        <Route path="/DevMatrix/Grok" element={<Grok />} />
+        <Route path="/DevMatrix/Portfolio" element={<Portfolio />} />
+        <Route path="/DevMatrix/Portfolio1" element={<Portfolio1 />} />
+        <Route path="/DevMatrix/Portfolio2" element={<Portfolio2 />} />
+        <Route path="/DevMatrix/ChatDashboard" element={<ChatDashboard />} />
+        <Route path="/DevMatrix/ChatDashboard1" element={<ChatDashboard1 />} />
+        <Route
+          path="/DevMatrix/ExpenseDashboard"
+          element={<ExpenseDashboard />}
+        />
+        <Route
+          path="/DevMatrix/MarketDashboard"
+          element={<MarketDashboard />}
+        />
+        <Route path="/DevMatrix/StellarMarket" element={<StellarMarket />} />
+        <Route
+          path="/DevMatrix/FocusLightSpinner"
+          element={<FocusLightSpinner />}
+        />
+        <Route
+          path="/DevMatrix/StellarMarket_v2"
+          element={<StellarMarket_v2 />}
+        />
+        <Route path="/DevMatrix/ShootingGame" element={<ShootingGameMain />} />
+        <Route path="/DevMatrix/ErrorPage" element={<ErrorPage />} />
 
         {/* Error page - catches all undefined routes */}
         <Route
