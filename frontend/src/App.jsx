@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DeepSeek from "./components/DeepSeek/DeepSeek";
 import DeepSeek1 from "./components/DeepSeek/DeepSeek1";
 import DeepSeek2 from "./components/DeepSeek/DeepSeek2";
