@@ -295,7 +295,7 @@ export default function Home({ contentArray }) {
                     </div>
 
                     <button
-                      onClick={() => redirectTo(`/${item.title}`)}
+                      onClick={() => redirectTo(`/DevMatrix/${item.title}`)}
                       className={`${styles.cardButton} ${randomGradient} bg-gradient-to-r hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300`}
                     >
                       <div className={styles.buttonContent}>
