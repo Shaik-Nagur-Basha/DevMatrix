@@ -147,7 +147,7 @@ export default function Navigation() {
 
         {/* Home button */}
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/DevMatrix")}
           className={`${styles.navButton}`}
           aria-label="Go home"
           data-tooltip="Home"

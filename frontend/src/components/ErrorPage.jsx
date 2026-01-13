@@ -86,7 +86,7 @@ export default function ErrorPage({
               Go Back
             </button>
             <Link
-              to="/"
+              to="/DevMatrix"
               className={`${styles.button} ${styles.secondaryButton}`}
             >
               <svg
