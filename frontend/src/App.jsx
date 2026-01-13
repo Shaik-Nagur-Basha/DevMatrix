@@ -82,7 +82,7 @@ export default function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home contentArray={contentArray} />} />
+        <Route path="/DevMatrix" element={<Home contentArray={contentArray} />} />
         <Route path="/MicrosoftCopilot" element={<MicrosoftCopilot />} />
         <Route path="/MicrosoftCopilot1" element={<MicrosoftCopilot1 />} />
         <Route path="/ChatGpt" element={<ChatGpt />} />
